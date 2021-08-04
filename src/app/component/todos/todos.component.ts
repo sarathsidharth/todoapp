@@ -14,15 +14,7 @@ export class TodosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.todos = [{
-      content: 'first todo',
-      completed: false
-    },
-    {
-      content: 'first todo',
-      completed: true
-    }
-    ]
+    this.todos = []
 
   }
   toggledone(id: number) {
